@@ -33,7 +33,7 @@ std::string Libro::getAutor() const{
 	return autor;
 }
 
-std::string toString() {
+std::string Libro::toString() {
 	std::string portada;
 	portada = "ID: " + std::to_string(id) + "Nombre: " + nombre + "Autor: " + autor + "\n";
 	return portada

@@ -1,6 +1,6 @@
-//
-// Created by Maikol Guzman  on 2019-09-16.
-//
+// Fecha: 17-09-2019
+// Autor: Noel Munoz Ramirez
+// Universidad Nacional
 
 #ifndef LAB_6_LISTAS_ENLAZADAS_NODO_H
 #define LAB_6_LISTAS_ENLAZADAS_NODO_H
@@ -15,16 +15,17 @@ private:
 
 public:
 	virtual Nodo();
-	virtual Nodo(Libro libro, Nodo* siguiente);
+	virtual Nodo(Libro, Nodo*);
 	virtual ~Nodo();
 
 	//Metodos SET/GET
-	virtual void setLibro(Libro libro);
+	virtual void setLibro(Libro);
     virtual Libro getLibro();
 
-	virtual void setSiguiente(Nodo* siguiente);
+	virtual void setSiguiente(Nodo*);
 	virtual Nodo *getSiguiente();
 
+	//Metodos
 	virtual std::string toString();
 
 };

@@ -1,6 +1,6 @@
-//
-// Created by Maikol Guzman  on 2019-09-16.
-//
+// Fecha: 17-09-2019
+// Autor: Noel Munoz Ramirez
+// Universidad Nacional
 
 #include "Libro.h"
 #include<sstream>
